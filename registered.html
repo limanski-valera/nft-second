@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Create account</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230128235713">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-lp data-scroll="120" class="header">
+			<div class="header__container">
+				<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="logotipe"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="marketplace.html" class="menu__link --link">Marketplace</a></li>
+							<li class="menu__item"><a href="rankings.html" class="menu__link --link">Rankings</a></li>
+							<li class="menu__item"><a href="wallet.html" class="menu__link --link">Connect a wallet</a></li>
+						</ul>
+						<div class="header__active active-header">
+							<a href="registered.html" class="active-header__button button button--small _icon-User">Sign Up</a>
+						</div>
+					</nav>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="registered">
+			<section data-fullscreen class="registered__window window-registered">
+				<div class="window-registered__image--ibg"><picture><source srcset="img/registered/registered-image.webp" type="image/webp"><img src="img/registered/registered-image.jpg" alt="create account"></picture></div>
+				<div class="window-registered__container">
+					<header class="window-registered__heading heading">
+						<div class="heading__title-block">
+							<h2 class="heading__title">Create account</h2>
+							<div class="heading__sub-title">
+								<p>Welcome! enter your details and start creating, collecting and selling NFTs.</p>
+							</div>
+						</div>
+					</header>
+					<form action="#" class="window-registered__form form-registered">
+						<div class="form-registered__item">
+							<input data-required autocomplete="off" type="text" name="form[]" data-error="" placeholder="Username" class="form-registered__input input">
+							<span class="form-registered__icon-item _icon-User"></span>
+						</div>
+						<div class="form-registered__item">
+							<input data-required="email" autocomplete="off" type="text" name="form[]" data-error="" placeholder="Email Address" class="form-registered__input input ">
+							<span class="form-registered__icon-item _icon-EnvelopeSimple"></span>
+						</div>
+						<div class="form-registered__item">
+							<input data-required autocomplete="off" type="text" name="form[]" data-error="" placeholder="Password" class="form-registered__input input">
+							<span class="form-registered__icon-item _icon-LockKey"></span>
+						</div>
+						<div class="form-registered__item">
+							<input data-required autocomplete="off" type="text" name="form[]" data-error="" placeholder="Confirm Password" class="form-registered__input input ">
+							<span class="form-registered__icon-item _icon-LockKey"></span>
+						</div>
+						<div class="form-registered__item">
+							<button type="submit" class="form-registered__button button">Create account</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">
+						<a href="#" class="footer__logo"><img src="img/logo.svg" alt="logotipe"></a>
+						<div class="footer__text">
+							<p>NFT marketplace UI created with Anima for Figma.</p>
+						</div>
+						<div class="footer__societs societs-footer">
+							<div class="societs-footer__label">Join our community</div>
+							<div class="societs-footer__body">
+								<a href="https://discord.com/" class="societs-footer__item _icon-s-discord"></a>
+								<a href="https://www.youtube.com/" class="societs-footer__item _icon-s-youtube"></a>
+								<a href="https://twitter.com/" class="societs-footer__item _icon-s-twitter"></a>
+								<a href="https://www.instagram.com/" class="societs-footer__item _icon-s-insta"></a>
+							</div>
+						</div>
+					</div>
+					<nav class="footer__explore">
+						<div class="footer__title">Explore</div>
+						<div class="footer__links">
+							<div class="footer__link-wrapper"><a href="marketplace.html" class="footer__link --link">Marketplace</a></div>
+							<div class="footer__link-wrapper"><a href="rankings.html" class="footer__link --link">Rankings</a></div>
+							<div class="footer__link-wrapper"><a href="wallet.html" class="footer__link --link">Connect a wallet</a></div>
+						</div>
+					</nav>
+					<div class="footer__form-column">
+						<div class="footer__title">Join our weekly digest</div>
+						<div class="footer__text">
+							<p>Get exclusive promotions & updates straight to your inbox.</p>
+						</div>
+						<form action="files/sendmail/sendmail.php" method="POST" class="footer__form subscribe-form">
+							<input type="text" name="form[email]" data-error="Error" placeholder="Enter your email here" class="subscribe-form__input input">
+							<button type="submit" class="subscribe-form__button button _icon-EnvelopeSimple">Subscribe</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__bottom-row">
+					<div class="footer__text">
+						<p>Ⓒ NFT Market. Use this template freely.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230128235713"></script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Connect Wallet</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230128235713">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-lp data-scroll="120" class="header">
+			<div class="header__container">
+				<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="logotipe"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="marketplace.html" class="menu__link --link">Marketplace</a></li>
+							<li class="menu__item"><a href="rankings.html" class="menu__link --link">Rankings</a></li>
+							<li class="menu__item"><a href="wallet.html" class="menu__link --link">Connect a wallet</a></li>
+						</ul>
+						<div class="header__active active-header">
+							<a href="registered.html" class="active-header__button button button--small _icon-User">Sign Up</a>
+						</div>
+					</nav>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="wallet">
+			<section data-fullscreen class="wallet__window window-wallet">
+				<div class="window-wallet__image--ibg"><picture><source srcset="img/wallet/wallet-image.webp" type="image/webp"><img src="img/wallet/wallet-image.jpg" alt="connect wallet"></picture></div>
+				<div class="window-wallet__container">
+					<header class="window-wallet__heading heading">
+						<div class="heading__title-block">
+							<h2 class="heading__title">Connect wallet</h2>
+							<div class="heading__sub-title">
+								<p>Choose a wallet you want to connect. There are several wallet providers.</p>
+							</div>
+						</div>
+					</header>
+					<div class="window-wallet__items">
+						<a href="#" class="window-wallet__item item-wallet _metamask">
+							<img class="item-wallet__logo" src="img/connect-wallet/Metamask.svg" alt="metamask">
+							Metamask
+						</a>
+						<a href="#" class="window-wallet__item item-wallet _wallet-connect">
+							<img class="item-wallet__logo" src="img/connect-wallet/WalletConnect.svg" alt="wallet connect">
+							Wallet Connect
+						</a>
+						<a href="#" class="window-wallet__item item-wallet _coinbase">
+							<img class="item-wallet__logo" src="img/connect-wallet/Coinbase.svg" alt="coinbase">
+							Coinbase
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">
+						<a href="#" class="footer__logo"><img src="img/logo.svg" alt="logotipe"></a>
+						<div class="footer__text">
+							<p>NFT marketplace UI created with Anima for Figma.</p>
+						</div>
+						<div class="footer__societs societs-footer">
+							<div class="societs-footer__label">Join our community</div>
+							<div class="societs-footer__body">
+								<a href="https://discord.com/" class="societs-footer__item _icon-s-discord"></a>
+								<a href="https://www.youtube.com/" class="societs-footer__item _icon-s-youtube"></a>
+								<a href="https://twitter.com/" class="societs-footer__item _icon-s-twitter"></a>
+								<a href="https://www.instagram.com/" class="societs-footer__item _icon-s-insta"></a>
+							</div>
+						</div>
+					</div>
+					<nav class="footer__explore">
+						<div class="footer__title">Explore</div>
+						<div class="footer__links">
+							<div class="footer__link-wrapper"><a href="marketplace.html" class="footer__link --link">Marketplace</a></div>
+							<div class="footer__link-wrapper"><a href="rankings.html" class="footer__link --link">Rankings</a></div>
+							<div class="footer__link-wrapper"><a href="wallet.html" class="footer__link --link">Connect a wallet</a></div>
+						</div>
+					</nav>
+					<div class="footer__form-column">
+						<div class="footer__title">Join our weekly digest</div>
+						<div class="footer__text">
+							<p>Get exclusive promotions & updates straight to your inbox.</p>
+						</div>
+						<form action="files/sendmail/sendmail.php" method="POST" class="footer__form subscribe-form">
+							<input type="text" name="form[email]" data-error="Error" placeholder="Enter your email here" class="subscribe-form__input input">
+							<button type="submit" class="subscribe-form__button button _icon-EnvelopeSimple">Subscribe</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__bottom-row">
+					<div class="footer__text">
+						<p>Ⓒ NFT Market. Use this template freely.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230128235713"></script>
+</body>
+
+</html>
